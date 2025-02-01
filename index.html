@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="weather-app">
+        <!-- Sunrise / Sunset Bar -->
+        <div class="top-bar">
+            <span class="time">7:00 AM</span>
+            <div class="timeline">
+                <div class="progress"></div>
+            </div>
+            <span class="time">5:00 PM</span>
+        </div>
+
+        <!-- Current Location -->
+        <h2 class="location">Current Location</h2>
+
+        <!-- Temperature Display -->
+        <div class="temperature">33°</div>
+        <p class="condition">Sunny</p>
+
+        <!-- Hourly Forecast -->
+        <div class="forecast">
+            <div class="hour"><span class="hour-number">3</span><img src="assets/sunPartial.png" alt=""><span
+                    class="hour-temp">33</span></div>
+            <div class="hour"><span class="hour-number">4</span><img src="assets/sunPartial.png" alt=""><span
+                    class="hour-temp">33</span></div>
+            <div class="hour"><span class="hour-number">5</span><img src="assets/sunPartial.png" alt=""><span
+                    class="hour-temp">33</span></div>
+            <div class="hour"><span class="hour-number">6</span><img src="assets/moonPartial.png" alt=""><span
+                    class="hour-temp">33</span></div>
+            <div class="hour"><span class="hour-number">7</span><img src="assets/moonPartial.png" alt=""><span
+                    class="hour-temp">33</span></div>
+            <div class="hour"><span class="hour-number">8</span><img src="assets/moonClear.png" alt=""><span
+                    class="hour-temp">33</span></div>
+        </div>
+
+        <!-- Location Section -->
+        <div class="location-section">
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search Location">
+            </div>
+
+            <!-- Other Cities Tiles -->
+            <div class="other-locations">
+                <div class="location-card">
+                    <p>San Francisco</p><img src="assets/sunClear.png" alt="Sunny"><span>50°</span>
+                </div>
+                <div class="location-card">
+                    <p>Hong Kong</p><img src="assets/sunClear.png" alt="Sunny"><span>62°</span>
+                </div>
+                <div class="location-card">
+                    <p>Shanghai</p><img src="assets/sunClear.png" alt="Sunny"><span>48°</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
