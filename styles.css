@@ -107,6 +107,9 @@ body {
     border-radius: 20px 20px 0 0;
     box-shadow: 0px -8px 20px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
+    height: auto;
+    max-height: 300px;
+    transition: height 0.5s ease;
 }
 
 .search-bar {
